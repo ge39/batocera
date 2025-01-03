@@ -1,0 +1,92 @@
+
+  .emulatorContainer {
+    /* Altura fixa para o contêiner */
+<<<<<<< HEAD
+     height: 450px; 
+    /*max-width: 100%;  Limita a largura ao tamanho da tela */
+=======
+    height: 450px; 
+    width:100%;
+    max-width: 100%; /* Limita a largura ao tamanho da tela */
+>>>>>>> 6b32cbcb3f8b5d3cb7563164a1eedae36fb78b60
+    /* Centraliza o contêiner horizontalmente e define margens verticais */
+    margin: 5px auto;
+    
+    width: 50%; /* O contêiner ocupa toda a largura disponível */
+    display: inline-flexbox; /* Habilita Flexbox */
+     /* Centraliza horizontalmente */
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center; 
+    background: #000;
+     /* Fundo para visualização (opcional) */
+    /* margin-bottom:100px; */
+   
+    
+  }
+  
+  .game {
+      /* background: #000; */
+     /* Fundo preto para o emulador */
+     /* margin-right:-50px;   */
+    width: 100%; /* O emulador ocupa 90% da largura do contêiner */
+    /* O emulador ocupa 90% da altura do contêiner */
+    height: auto;  
+    align-items: center;
+    justify-content:end;
+    border-radius: 8px; /* Adiciona cantos arredondados (opcional) */
+    display: flex;
+    flex-direction:initial;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+<<<<<<< HEAD
+  @media (max-width: 1000px) {
+    .emulatorContainer{
+      width: 90%;
+      height: o auto;
+    }
+    
+  }
+  
+=======
+  
+.start_button {
+  position: fixed;
+  bottom: 65px;
+  /* left: -100px; */
+  transform: translateX(-50%);
+  cursor: pointer;
+  box-sizing: inherit;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  position: relative;
+  text-decoration: none;
+  width: fit-content;
+  padding-left: 40px;
+  padding-right: 40px;
+  white-space: nowrap;
+  height: 45px;
+  border: 0;
+  color: #fff !important;
+  border-radius: 35px;
+  text-align: center;
+  background-color: rgba(var(--ejs-primary-color), 1);
+  box-shadow: 0 0 0 0 #222, 0 0 0 0 #111, inset 0 0 0 0 rgba(250, 250, 250, 0.2), inset 0 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+ @media (max-width: 800px) {
+   .emulatorContainer{
+     width: 90%;
+     height: o auto;
+   }
+   
+ }
+>>>>>>> 6b32cbcb3f8b5d3cb7563164a1eedae36fb78b60
